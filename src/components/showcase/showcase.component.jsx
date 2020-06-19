@@ -3,8 +3,10 @@ import { ReactComponent as Logo} from '../../assets/headphone-icon-2.svg';
 
 import './showcase.styles.css';
 
+
 const Showcase = () => {
     return (
+       
         <div className="homepage-showcase">
             <div className="showcase-title">
                 <div className="showcase-title-logo">

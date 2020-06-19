@@ -1,5 +1,11 @@
 .homepage-showcase{
-    background-color: #090819;
+    background: linear-gradient(
+        rgba(9, 8, 25, 0.9),
+        rgba(2, 0, 22, 0.9)
+    ), url(../../assets/headset.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
     height:100vh;
     width:100%;
     display:flex;
@@ -7,6 +13,9 @@
     align-items: center;
     justify-content: center;
     margin:0;
+    /* position: relative;
+    top:-15vh;
+    z-index:-1 */
 }
 
 .showcase-title{
