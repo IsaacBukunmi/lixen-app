@@ -1,0 +1,48 @@
+.catalogue-page{
+    padding: 20px 70px;
+    background: #EEEEEE;
+}
+
+.title-search-form{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-search-form h1{
+    font-family: 'Quicksand', sans-serif;
+    color:#090819;
+    text-transform: uppercase;
+}
+
+.title-search-form form input[type="search"]{
+    border: 2px solid #090819;
+    width:25vw;
+    height: 35px;
+    border-radius: 5px;
+    padding-left:15px;
+}
+
+.title-search-form form input[type="search"]::placeholder{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.catalogue-title p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-top:0 !important;
+    width:60%;
+    color:#000000;
+}
+
+
+.catalogue-title{
+    border-bottom:2px solid #090819;
+}
+
+
+
+
+
+

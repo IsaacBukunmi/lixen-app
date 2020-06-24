@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+.sign-in-title{
+    margin-bottom:20px;
+}
+
+.sign-in-title h1{
+    font-family: 'Quicksand', sans-serif;
+    color:#090819;
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+    font-size:40px;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+.sign-in-title p{
+    font-family: 'Nunito', sans-serif;
+    color:#090819;
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+    font-size:20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sign-in-title p.register-here span a{
+    color: #ff5700;
+    text-decoration: none;
+    font-weight:700;
+}
+
+.sign-in-title p.register-here span a:hover{
+    text-decoration: underline;
+}
+
+.sign-in-form-container{
+    border:2px solid #090819;
+    padding:10px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px 5px 26px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 5px 26px -2px rgba(0,0,0,0.75);
+    box-shadow: -2px 5px 26px -2px rgba(0,0,0,0.75);
+    background-color: #FFFFFF;
+}
+
+.sign-in-form-container p.form-title{
+    font-family: 'Nunito', sans-serif;
+    color:#090819;
+    font-size:18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+
+.border-line-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-button button{
+    border:none;
+    width:100%;
+    background-color: #090819;
+    color:#FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom:25px;
+    margin-top:10px;
+}
+
+/* .sign-in-button button:hover{
+    background-color: transparent;
+    color:#090819;
+    border: 2px solid #090819;
+} */
+
+.border-line-container .left-line, .border-line-container .right-line{
+    height:2px;
+    width:108px;
+    background-color: #090819;
+}
+
+.border-line-container p{
+    font-family: 'Nunito', sans-serif;
+    color:#090819;
+    font-size:16px;
+    padding-left:15px;
+    padding-right:15px;
+    font-weight: 600;
+}
+
+.sigin-icons-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:30px;
+    margin-top:10px;
+}
+
+.sigin-icons-container .google-logo, .sigin-icons-container .facebook-logo{
+    width:35px;
+    height: 35px;
+    cursor: pointer;
+}

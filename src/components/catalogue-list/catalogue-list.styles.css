@@ -1,0 +1,63 @@
+
+
+.catalogue-section-title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalogue-section-title h2{
+    font-family: 'Quicksand', sans-serif;
+    color:#090819;
+}
+
+.catalogue-section-title p a{
+    font-family: 'Quicksand', sans-serif;
+    color:#090819;
+    font-weight:600;
+    text-decoration:none;
+    font-size:20px;
+}
+
+ .catalogue-section-title p a:hover{
+    /* color:#ffb515; */
+    text-decoration: underline;
+}
+
+
+.poem-catalogue-section .catalogue-item{
+    background:rgba(234, 147, 153, 1);
+    margin-bottom:60px;
+}
+
+.true-stories-catalogue-section .catalogue-item{
+    background:rgba(18, 129, 133, 1);
+    margin-bottom:60px;
+}
+
+.audio-books-catalogue-section .catalogue-item{
+    background: rgba(36, 36, 38, 1);
+    margin-bottom:60px;
+}
+
+.bedtime-stories-catalogue-section .catalogue-item{
+    background: rgba(237, 151, 62, 1);
+    margin-bottom:60px;
+}
+
+.fictional-stories-catalogue-section .catalogue-item{
+    background: rgba(137, 20, 0, 1);
+    margin-bottom:60px;
+}
+
+.songs-catalogue-section .catalogue-item{
+    background: rgba(0, 23, 93, 1);
+    margin-bottom:60px;
+}
+
+.catalogue-item-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 10px;
+   
+}

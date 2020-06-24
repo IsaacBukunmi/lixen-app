@@ -34,8 +34,8 @@ const Header = ({ match }) => {
                 <Link className="nav-item">
                     Contact
                 </Link>
-                <Link className="nav-item">
-                    Log In
+                <Link to='/signin' className="nav-item">
+                    Sign In
                 </Link>
             </div>
         </div>
