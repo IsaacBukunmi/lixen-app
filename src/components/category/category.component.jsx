@@ -16,7 +16,7 @@ class Category extends React.Component{
                     imageUrl:'https://images.unsplash.com/photo-1585834447749-a4b9c0dcbc5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80',
                     id:1,
                     overlay:'poems',
-                    linkUrl:'poems', 
+                    linkUrl:'audio-catalogue/poems', 
                 },
 
                 {
@@ -25,7 +25,7 @@ class Category extends React.Component{
                     imageUrl:'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
                     id:2,
                     overlay:'true-stories',
-                    linkUrl:'true-stories',
+                    linkUrl:'audio-catalogue/true-stories',
                 },
 
                 {
@@ -34,7 +34,7 @@ class Category extends React.Component{
                     imageUrl:'https://images.unsplash.com/photo-1552159120-eedef3af32dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
                     id:3,
                     overlay:'audio-books',
-                    linkUrl:'audio-books'
+                    linkUrl:'audio-catalogue/audio-books'
                 },
 
                 {
@@ -43,7 +43,7 @@ class Category extends React.Component{
                     imageUrl:'https://images.unsplash.com/photo-1519791883288-dc8bd696e667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
                     id:4,
                     overlay:'bedtime-stories',
-                    linkUrl:'bedtime-stories'
+                    linkUrl:'audio-catalogue/bedtime-stories'
                 },
 
                 {
@@ -52,7 +52,7 @@ class Category extends React.Component{
                     imageUrl:'https://images.unsplash.com/photo-1530374195309-8c25022c4753?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
                     id:5,
                     overlay:'fictional-stories',
-                    linkUrl:'fictional-stories'
+                    linkUrl:'audio-catalogue/fictional-stories'
                 },
 
                 {
@@ -61,7 +61,7 @@ class Category extends React.Component{
                     imageUrl:'https://images.unsplash.com/photo-1560999909-e214227dd21b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
                     id:6,
                     overlay:'songs',
-                    linkUrl:'songs'
+                    linkUrl:'audio-catalogue/songs'
                 },
 
                 {
@@ -70,7 +70,7 @@ class Category extends React.Component{
                     imageUrl:'https://images.unsplash.com/photo-1583604518057-6c31e12d4e30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
                     id:7,
                     overlay:'instrumentals',
-                    linkUrl:'instrumentals'
+                    linkUrl:'audio-catalogue/instrumentals'
                 },
 
                 {
@@ -79,7 +79,7 @@ class Category extends React.Component{
                     imageUrl:'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80',
                     id:8,
                     overlay:'lifestyles',
-                    linkUrl:'lifestyles'
+                    linkUrl:'audio-catalogue/lifestyles'
                 },
 
                 {
@@ -88,7 +88,7 @@ class Category extends React.Component{
                     imageUrl:'https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"',
                     id:8,
                     overlay:'motivational',
-                    linkUrl:'motivational'
+                    linkUrl:'audio-catalogue/motivational'
                 }
                 
             ]

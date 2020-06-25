@@ -17,6 +17,7 @@
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .nav-items-container .nav-item:hover{

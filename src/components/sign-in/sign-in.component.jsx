@@ -1,16 +1,31 @@
 import React from 'react';
-import { ReactComponent as GoogleLogo } from '../../assets/google-logo.svg';
-import { ReactComponent as FacebookLogo } from '../../assets/facebook-icon.svg'
 
 
 import './sign-in.styles.css';
 import FormInput from '../form-input/form-input.component';
+import CustomButton from '../custom-button/custom-button.component'
+import AlternateSignIn from '../alternate-sign-in/alternate-sign-in.component';
 
 
 class SignIn extends React.Component{
     constructor(){
         super();
+        this.state = {
+           email: '',
+           password: '' 
+        }
+    }
 
+    handleSubmit = (event) => {
+        event.preventDefault();
+    }
+
+
+    handleChange = (event) => {
+        const {name, value} = event.target;
+        this.setState ({
+            [name]:value
+        })
     }
 
     render(){
@@ -24,28 +39,26 @@ class SignIn extends React.Component{
                <div className="sign-in-form-container">
                    <p className="form-title">Enter your email and password to sign in</p>
                    <form action="">
-                        <FormInput 
+                        <FormInput
                             type="email"
                             name="email"
                             placeholder="Enter your email address"
+                            handleChange={this.handleChange}
+                            value={this.state.email}
+                            label="email"
+                            required
                         />
                        <FormInput 
                             type="password"
                             name="password"
                             placeholder="Enter your password"
+                            handleChange={this.handleChange}
+                            value={this.state.password}
+                            label="password"
+                            reequired
                         />
-                       <div className="sign-in-button">
-                           <button>Sign In</button>
-                       </div>
-                       <div className="border-line-container">
-                           <div className="left-line"></div>
-                           <p>Or sign in using</p>
-                           <div className="right-line"></div>
-                       </div>
-                       <div className="sigin-icons-container">
-                           <GoogleLogo  className="google-logo"/>
-                           <FacebookLogo  className="facebook-logo"/>
-                       </div>
+                        <CustomButton>Sign In</CustomButton>
+                        <AlternateSignIn />
                    </form>
                </div>
             </div>

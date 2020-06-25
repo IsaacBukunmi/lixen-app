@@ -1,10 +1,11 @@
 import React from 'react';
 import { ReactComponent as Logo} from '../../assets/headphone-icon.svg';
 import { withRouter, Link } from 'react-router-dom';
+import { auth } from '../../firebase/firebase.utils'
 
 import './header.styles.css';
 
-const Header = ({ match }) => {
+const Header = ({ currentUser, match }) => {
     return (
         <div className="header">
             <div className="header-logo-container">
@@ -23,10 +24,10 @@ const Header = ({ match }) => {
                 }
                 {
                   match.path===`${match.url}/catalogue` ? 
-                    <Link to='/catalogue' className="nav-item active">
+                    <Link to='/audio-catalogue' className="nav-item active">
                         Audio Catalogue
                     </Link> :
-                    <Link to='/catalogue' className="nav-item">
+                    <Link to='/audio-catalogue' className="nav-item">
                         Audio Catalogue
                     </Link> 
                 }
@@ -34,9 +35,17 @@ const Header = ({ match }) => {
                 <Link className="nav-item">
                     Contact
                 </Link>
-                <Link to='/signin' className="nav-item">
-                    Sign In
-                </Link>
+
+                {   
+                    currentUser ? 
+                    <a className="nav-item" onClick={() => auth.signOut()}>
+                        Sign Out
+                    </a> :
+                    <Link to='/signin' className="nav-item">
+                        Sign In
+                    </Link>
+                }
+                
             </div>
         </div>
     )
