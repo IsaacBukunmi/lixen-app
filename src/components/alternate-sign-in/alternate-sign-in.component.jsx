@@ -2,7 +2,8 @@ import React from 'react';
 import { ReactComponent as GoogleLogo } from '../../assets/google-logo.svg';
 import { ReactComponent as FacebookLogo } from '../../assets/facebook-icon.svg';
 
-import { signInWithGoogle } from '../../firebase/firebase.utils'
+import { signInWithGoogle } from '../../firebase/firebase.utils';
+import { signInWithFacebook } from '../../firebase/firebase.utils';
 
 import './alternate-sign-in.styles.css';
 
@@ -16,7 +17,7 @@ const AlternateSignIn = () => {
             </div>
             <div className="sigin-icons-container">
                 <GoogleLogo  className="google-logo" onClick={signInWithGoogle}/>
-                <FacebookLogo  className="facebook-logo"/>
+                <FacebookLogo  className="facebook-logo" onClick={signInWithFacebook}/>
             </div>
         </div>
     )

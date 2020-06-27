@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.sign-up-title{
+    margin-bottom:20px;
+}
+
+.sign-up-title h1{
+    font-family: 'Quicksand', sans-serif;
+    color:#090819;
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+    font-size:40px;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+.sign-up-title p{
+    font-family: 'Nunito', sans-serif;
+    color:#090819;
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+    font-size:20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sign-up-title p.register-here span a{
+    color: #ff5700;
+    text-decoration: none;
+    font-weight:700;
+}
+
+.sign-up-title p.register-here span a:hover{
+    text-decoration: underline;
+}
+
+.sign-up-form-container{
+    border:2px solid #090819;
+    padding:10px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px 5px 26px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 5px 26px -2px rgba(0,0,0,0.75);
+    box-shadow: -2px 5px 26px -2px rgba(0,0,0,0.75);
+    background-color: #FFFFFF;
+    width:88%;
+    margin:0 auto;
+}
+
+.sign-up-form-container p.form-title{
+    font-family: 'Nunito', sans-serif;
+    color:#090819;
+    font-size:18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+

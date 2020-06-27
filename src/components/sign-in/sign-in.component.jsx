@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 import './sign-in.styles.css';
@@ -34,7 +35,7 @@ class SignIn extends React.Component{
                <div className="sign-in-title">
                    <h1>SIGN IN</h1>
                    <p>Sign into your account to access your profile</p>
-                   <p class="register-here">Don't have an account? <span><a href="">Register here</a></span></p>
+                   <p class="register-here">Don't have an account? <span><Link to='/signup'>Register here</Link></span></p>
                </div>
                <div className="sign-in-form-container">
                    <p className="form-title">Enter your email and password to sign in</p>

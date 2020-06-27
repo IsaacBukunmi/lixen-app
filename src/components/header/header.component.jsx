@@ -38,9 +38,9 @@ const Header = ({ currentUser, match }) => {
 
                 {   
                     currentUser ? 
-                    <a className="nav-item" onClick={() => auth.signOut()}>
+                    <Link  className="nav-item" onClick={() => auth.signOut()}>
                         Sign Out
-                    </a> :
+                    </Link> :
                     <Link to='/signin' className="nav-item">
                         Sign In
                     </Link>
